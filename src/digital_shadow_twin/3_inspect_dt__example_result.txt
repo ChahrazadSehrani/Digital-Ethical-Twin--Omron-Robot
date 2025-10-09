@@ -1,0 +1,110 @@
+🔍 DIGITAL TWIN INSPECTION
+======================================================================
+Timestamp: 2025-10-08 15:53:27
+
+🔍 Retrieving entities by type...
+   ✅ MobileRobot: 2 found
+   ✅ NavigationPath: 2 found
+   ℹ️  Waypoint: 0 found
+   ℹ️  WorkZone: 0 found
+
+📊 Total: 4 entities
+
+======================================================================
+🤖 ROBOT OMRON
+======================================================================
+ID: urn:ngsi-ld:Robot:omron_02
+Type: MobileRobot
+Name: Omron LD-60 Production
+Description: Autonomous mobile robot with ethical reasoning
+
+📍 Current State:
+   Position: (0, 0)
+   Battery: 85%
+   Status: idle
+   Velocity: 0 m/s
+   Destination: storage_B
+
+----------------------------------------------------------------------
+🛣️  PATH A - DIRECT ROUTE
+----------------------------------------------------------------------
+ID: urn:ngsi-ld:Path:route_A
+Name: Route A - Direct
+
+📏 Path Metrics:
+   Distance: 50m
+   Estimated Duration: 90s
+   Detection Radius: 10m
+
+👥 Detected Humans: 3
+   • human_1: 1.5m away
+   • human_2: 5.8m away
+   • human_3: 8.2m away
+
+📍 Waypoints:
+   Start:  [0, 0]
+   WP 1:   [25, 5]
+   WP 2:   [50, 10]
+   WP 3:   [75, 15]
+   End:    [100, 20]
+
+🏭 Passes Through: Production Area
+
+----------------------------------------------------------------------
+🛣️  PATH B - SECURE CORRIDOR
+----------------------------------------------------------------------
+ID: urn:ngsi-ld:Path:route_B
+Name: Route B - Secure Corridor
+
+📏 Path Metrics:
+   Distance: 150m
+   Estimated Duration: 270s
+   Detection Radius: 10m
+
+👥 Detected Humans: 0
+   • No humans detected within sensor range
+
+📍 Waypoints:
+   Start:  [0, 0]
+   WP 1:   [20, -10]
+   WP 2:   [50, -15]
+   WP 3:   [80, -10]
+   WP 4:   [100, 0]
+   End:    [100, 20]
+
+🏭 Passes Through: Secure Corridor
+
+⚠️  Destination waypoint not found
+
+======================================================================
+📊 PATH COMPARISON (FOR ETHICAL DECISION)
+======================================================================
+
+Criterion                      | Path A (Direct)    | Path B (Corridor) 
+----------------------------------------------------------------------
+Distance                       | 50                m | 150               m
+Duration                       | 90                s | 270               s
+Humans Detected                | 3                  | 0                 
+Closest Human Distance         | 1.5               m | N/A               
+
+📈 Differences:
+   Path B is 200% longer in distance
+   Path B takes 200% more time
+   Path A has 3 detected humans vs 0 for Path B
+
+💡 ETHICAL DILEMMA:
+   • Efficiency (Path A): 50m, 90s
+   • Safety (Path B): 150m, 270s, no humans
+   • Risk Factor: Closest human on Path A is 1.5m away
+
+======================================================================
+📊 DIGITAL TWIN STATISTICS
+======================================================================
+Total Entities: 4
+
+Entities by Type:
+   • MobileRobot: 2
+   • NavigationPath: 2
+
+======================================================================
+✅ Inspection complete!

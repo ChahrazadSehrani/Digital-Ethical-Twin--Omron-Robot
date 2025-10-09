@@ -1,0 +1,7 @@
+🚀 Simulating robot urn:ngsi-ld:Robot:omron_01 along PATH A (5 waypoints)
+✅ Robot moved to [0, 0]
+✅ Robot moved to [25, 5]
+✅ Robot moved to [50, 10]
+✅ Robot moved to [75, 15]
+✅ Robot moved to [100, 20]
+✅ Robot reached end of PATH A

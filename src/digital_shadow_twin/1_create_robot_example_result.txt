@@ -1,0 +1,14 @@
+🤖 CRÉATION DU JUMEAU NUMÉRIQUE - ROBOT OMRON
+============================================================
+
+✅ Robot Omron créé avec succès dans FIWARE!
+   ID: urn:ngsi-ld:Robot:omron_01
+   Type: MobileRobot
+   Position: [0.0, 0.0]
+   Batterie: 85%
+   Status: idle
+
+✅ Vérification: Robot trouvé dans FIWARE
+   Nom: Omron LD-60 Production
+   Position: [0, 0]
+   Batterie: 85%

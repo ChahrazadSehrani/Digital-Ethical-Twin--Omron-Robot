@@ -1,0 +1,41 @@
+🛣️  CREATION OF NAVIGATION PATHS (REALISTIC SENSOR DATA)
+======================================================================
+Note: Humans detected with exact distances (like real lidar/radar)
+      Detection radius: 10m (anything beyond is not detected)
+
+Creating Path A (production area)...
+✅ Path A created successfully!
+   Distance: 50m
+   Duration: 90s
+   Detection radius: 10m
+   Detected humans: 3
+      • human_1: 1.5m away
+      • human_2: 5.8m away
+      • human_3: 8.2m away
+   Destination: [100, 20]
+
+Creating Path B (secure corridor)...
+✅ Path B created successfully!
+   Distance: 150m
+   Duration: 270s
+   Detection radius: 10m
+   Detected humans: 0 (secure corridor)
+   Destination: [100, 20]
+
+✅ Verification: Both paths found in FIWARE
+
+📊 COMPARISON (RAW SENSOR DATA):
+======================================================================
+Criterion                 | Path A (Direct)      | Path B (Corridor)   
+----------------------------------------------------------------------
+Distance                  | 50                  m | 150                 m
+Duration                  | 90                  s | 270                 s
+Detection Radius          | 10                  m | 10                  m
+Humans Detected           | 3                    | 0                   
+
+Path A - Human Details:                      
+  • human_1: 1.5m
+  • human_2: 5.8m
+  • human_3: 8.2m
+
+Path B:                                       No humans detected (secure area)
