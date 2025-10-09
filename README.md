@@ -1,10 +1,5 @@
 # Digital Ethical Twin (DET) - Omron Robot
 
-## 🎯 Projet de thèse
-**Doctorant** : Chahrazad Sehrani  
-**Laboratoire** : CRAN - Université de Lorraine - CNRS
-**Encadrants** : Hind BRIL-EL HAOUZI, Yinling LIU
-
 ## 📋 Objectif
 Intégration d'un raisonnement éthique basé sur LLM dans un jumeau numérique 
 pour robot mobile Omron.
