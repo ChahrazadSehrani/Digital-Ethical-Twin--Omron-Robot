@@ -53,6 +53,9 @@ python src/digital_twin/create_paths.py
 
 # 6. Verify everything works
 python src/digital_twin/inspect_dt.py
+
+# 7. Access to Hugging Face models
+.env.example should become .env and contain your real credentials
 ```
 ---
 

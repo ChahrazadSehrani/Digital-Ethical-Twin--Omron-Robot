@@ -1,33 +1,15 @@
-# Python
+# Fichiers sensibles - NE JAMAIS COMMIT
+.env
+.env.local
+.env.*.local
+
+# Autres fichiers à ignorer
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+*.pyd
 .Python
 venv/
 env/
-ENV/
-
-# Environment variables
-.env
-.env.local
-
-# Docker
-docker-compose.override.yml
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
 *.log
-decisions.json
-
-# Project specific
-notes/private/
+.DS_Store
