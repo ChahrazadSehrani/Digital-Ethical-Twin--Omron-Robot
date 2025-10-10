@@ -1,0 +1,10 @@
+✅ Token found: hf_pymFdKC...
+
+🧪 Testing Hugging Face InferenceClient...
+
+📡 Sending test request...
+✅ Response received!
+
+💬 Answer: Paris
+
+✅ Hugging Face API is working!
