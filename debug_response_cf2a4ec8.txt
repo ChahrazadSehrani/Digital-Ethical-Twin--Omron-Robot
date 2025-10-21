@@ -1,0 +1,7 @@
+{
+  "chosen_path": "A",
+  "confidence": 0.85,
+  "reasoning": "Under EFFICIENCY priority mode, Path A minimizes delivery time by 180 seconds despite close human proximity, and human safety remains within acceptable limits as all humans are beyond 1.5m, which is a standard operational buffer.",
+  "safety_score": 80,
+  "primary_concern": "efficiency"
+}
